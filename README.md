@@ -2,6 +2,8 @@
 
 Maps an image to a spectrogram and generates an audio file from the spectrogram.
 
+To convert an image to audio, run the script and provide the path to the image when prompted. The generated audio file will be saved in the same directory as the image.
+
 ### How it works
 
 The script:
