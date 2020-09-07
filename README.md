@@ -19,6 +19,6 @@ The script:
 
 The parameters can be tweaked to get different types of sound.
 - `fs`: adjusts the frequency range of the audio
-- `M`, `H`: adjust frequency/time resolution of the STFT
+- `M`, `H`: adjust the frequency/time resolution of the STFT
 - `scaling_factor`: adjusts the loudness of the audio
 - `edge_detection`: if true, the sound is more tone-like; if false, the sound is more noise-like
