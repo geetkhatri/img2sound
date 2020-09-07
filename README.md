@@ -2,6 +2,8 @@
 
 Maps an image to a spectrogram and generates an audio file from the spectrogram.
 
+### How it works
+
 The script:
 1. Takes an image as input
 2. Converts the image to grayscale (if it's RGB)
