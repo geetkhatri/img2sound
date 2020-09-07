@@ -7,7 +7,7 @@ Maps an image to a spectrogram and generates an audio file from the spectrogram.
 The script:
 1. Takes an image as input
 2. Converts the image to grayscale (if it's RGB)
-3. Resizes the image so that it can be mapped to the spectrogram
+3. Resizes the image to a fixed height
 4. (Optional) Applies edge detection to the image so that the audio is more tone-like
 5. Converts the image to double
 6. Scales the pixel intensities to control the loudness of the audio
