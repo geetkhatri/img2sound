@@ -24,3 +24,12 @@ The parameters can be tweaked to get different types of sound.
 - `M`, `H`: adjust the frequency/time resolution of the STFT
 - `scaling_factor`: adjusts the loudness of the audio
 - `edge_detection`: if true, the sound is more tone-like; if false, the sound is more noise-like
+
+### Dependencies
+
+The script has been tested with GNU Octave 4.4.1. The following packages are required:
+
+| Package       | Version       |
+| ------------- | ------------- |
+| image         | 2.12.0        |
+| signal        | 1.4.1         |
