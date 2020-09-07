@@ -11,16 +11,15 @@ The generated audio file (WAV) will be saved in the same directory as the image.
 ### How it works
 
 The script:
-1. Takes an image as input
-2. Converts the image to grayscale (if it's RGB)
-3. Resizes the image to a fixed height
-4. (Optional) Applies edge detection to the image so that the audio is more tone-like
-5. Scales the pixel intensities of the image to control the loudness of the audio
-6. Maps the pixel intensities to the power spectral densities of the spectrogram
-7. Randomizes the phase spectrum of the STFT
-8. Computes the inverse STFT
-9. Plots the spectrogram
-10. Generates an audio file
+1. Converts the image to grayscale (if it's RGB)
+2. Resizes the image to a fixed height
+3. (Optional) Applies edge detection to the image so that the audio is more tone-like
+4. Scales the pixel intensities of the image to control the loudness of the audio
+5. Maps the pixel intensities to the power spectral densities of the spectrogram
+6. Randomizes the phase spectrum of the STFT
+7. Computes the inverse STFT to get samples of the audio
+8. Plots the spectrogram
+9. Generates an audio file from the samples
 
 ### Parameters
 
