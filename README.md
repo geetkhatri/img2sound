@@ -2,7 +2,11 @@
 
 Maps an image to a spectrogram and generates an audio file from the spectrogram.
 
-To convert an image to audio, run the script and provide the path to the image when prompted. The generated audio file will be saved in the same directory as the image.
+To convert an image to audio:
+1. Run `img2sound.m`.
+2. Provide the path to the image when prompted.
+
+The generated audio file (WAV) will be saved in the same directory as the image.
 
 ### How it works
 
