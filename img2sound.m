@@ -1,5 +1,3 @@
-clear
-close all
 pkg load image
 pkg load signal
 
