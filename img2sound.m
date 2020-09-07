@@ -32,10 +32,10 @@ img = imresize(img, [height, NaN]);
 
 % edge detection
 if edge_detection
-  [~, threshold] = edge(img,'sobel');
-  fudgeFactor = 0.7;
-  img = edge(img, 'sobel', threshold * fudgeFactor);
-  imshow(img)
+    [~, threshold] = edge(img,'sobel');
+    fudgeFactor = 0.7;
+    img = edge(img, 'sobel', threshold * fudgeFactor);
+    imshow(img)
 end
 
 % convert to double and flip upside down
@@ -64,5 +64,5 @@ figure;
 specgram(y, M, fs, w, M - H);
 
 % write audio file
-audio_path = strjoin({strsplit(img_path, '.'){1}, ' - img2sound.wav'});
+audio_path = strjoin({strsplit(img_path, '.'){1}, '- img2sound.wav'});
 audiowrite(audio_path, y, fs);
