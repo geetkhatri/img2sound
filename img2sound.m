@@ -36,7 +36,7 @@ if edge_detection
     imshow(img)
 end
 
-% convert to double and flip upside down
+% convert to double, flip upside down and scale
 img_double = scaling_factor * flipud(im2double(img));
 
 % audio synthesis
