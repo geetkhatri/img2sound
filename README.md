@@ -17,7 +17,7 @@ The script:
 4. Scales the pixel intensities of the image to control the loudness of the audio
 5. Maps the pixel intensities to the power spectral densities of the spectrogram
 6. Randomizes the phase spectrum of the STFT
-7. Computes the inverse STFT to get samples of the audio
+7. Computes the inverse STFT to produce samples of the audio
 8. Plots the spectrogram
 9. Generates an audio file from the samples
 
