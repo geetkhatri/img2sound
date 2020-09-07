@@ -15,13 +15,12 @@ The script:
 2. Converts the image to grayscale (if it's RGB)
 3. Resizes the image to a fixed height
 4. (Optional) Applies edge detection to the image so that the audio is more tone-like
-5. Converts the image to double
-6. Scales the pixel intensities of the image to control the loudness of the audio
-7. Maps the pixel intensities to the power spectral densities of the spectrogram
-8. Randomizes the phase spectrum of the STFT
-9. Computes the inverse STFT
-10. Plots the spectrogram
-11. Generates an audio file
+5. Scales the pixel intensities of the image to control the loudness of the audio
+6. Maps the pixel intensities to the power spectral densities of the spectrogram
+7. Randomizes the phase spectrum of the STFT
+8. Computes the inverse STFT
+9. Plots the spectrogram
+10. Generates an audio file
 
 ### Parameters
 
