@@ -1,6 +1,6 @@
 # Image to Sound
 
-Maps an image to a spectrogram and generates an audio file from the spectrogram.
+_Image to Sound_ maps an image to a spectrogram and generates an audio file from the spectrogram.
 
 To convert an image to audio:
 1. Run `img2sound.m`.
