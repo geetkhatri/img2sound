@@ -1,3 +1,15 @@
+% Description: 
+% Image to Sound maps an image to a spectrogram and 
+% generates an audio file (WAV) from the spectrogram.
+%
+% Usage:
+% Run the script. Provide the path to the image when prompted.
+% The generated audio file will be saved in the same directory as the image.
+%
+% Author:
+% Geet Khatri
+% https://github.com/geetkhatri/
+
 pkg load image
 pkg load signal
 
