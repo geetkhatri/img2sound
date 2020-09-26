@@ -22,7 +22,7 @@ H = (1 - overlap) * M;              % hop size
 
 % image parameters
 height = M/2 + 1;                   % image height
-edge_detection = false;             % use edge detection?
+edge_detection = true;              % use edge detection?
 scaling_factor = 10;                % adjust loudness of output
 
 % read image
@@ -72,6 +72,8 @@ y = real(y);       % ignore imaginary parts that arise due to floating point imp
 % plot spectrogram
 figure;
 specgram(y, M, fs, w, M - H);
+xlabel('Time (s)')
+ylabel('Frequency (Hz)')
 
 % write audio file
 audio_path = strjoin({strsplit(img_path, '.'){1}, '- img2sound.wav'});
