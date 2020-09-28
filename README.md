@@ -15,7 +15,7 @@ The script:
 2. Resizes the image to a fixed height
 3. (Optional) Applies edge detection to the image so that the audio is more tone-like
 4. Scales the pixel intensities of the image to control the loudness of the audio
-5. Maps the pixel intensities to the power spectral densities of the spectrogram
+5. Maps the pixel intensities to the amplitudes of the spectrogram
 6. Randomizes the phase spectrum of the STFT
 7. Computes the inverse STFT to produce samples of the audio
 8. Plots the spectrogram
